@@ -1,0 +1,8 @@
+{
+  "schema": "spr-retired-layout-geometry-v1",
+  "status": "retired-stale-runtime-guard",
+  "releaseGenerationId": "retired",
+  "retiredForReleaseGeneration": "g20260929a",
+  "replacement": "../releases/g20260929a/boards/layout-geometry.v10.json",
+  "reason": "mixed-release-generation-fail-closed"
+}

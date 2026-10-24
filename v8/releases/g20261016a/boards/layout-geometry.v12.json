@@ -2763,39 +2763,39 @@
   ],
   "sources": {
     "background": {
-      "path": "../images/ver12-background.png",
+      "path": ".https://raw.githubusercontent.com/SC-BCH/fortnite-sprite-checklist/main/v8/releases/g20261016a/images/ver12-background.png",
       "sha256": "58327F2A84DD66E8D89C930FCC27979E3B56D902867AB898094F1CE408241761"
     },
     "mioriGumiBackground": {
-      "path": "../images/ver12-miori-gumi.png",
+      "path": ".https://raw.githubusercontent.com/SC-BCH/fortnite-sprite-checklist/main/v8/releases/g20261016a/images/ver12-miori-gumi.png",
       "sha256": "AEB83D219D9DC5EBEA531EDC35F5BC326A50725B0967989839553496A6E2837B"
     },
     "vanguardBackground": {
-      "path": "../images/ver12-vanguard-ii.png",
+      "path": ".https://raw.githubusercontent.com/SC-BCH/fortnite-sprite-checklist/main/v8/releases/g20261016a/images/ver12-vanguard-ii.png",
       "sha256": "9C639E4B2C625E68CD3B4D1C5BB91F53A917E61CA1556E1A841A14591C589FBC"
     },
     "groupPanelLayer": {
-      "path": "../images/ver12-family-panels.png",
+      "path": ".https://raw.githubusercontent.com/SC-BCH/fortnite-sprite-checklist/main/v8/releases/g20261016a/images/ver12-family-panels.png",
       "sha256": "42BA1E2CB18D964215055A8FD17E911EAB461E2C36228DC6E229028023BF2CB3"
     },
     "spriteLayer": {
-      "path": "../images/ver12-sprites.png",
+      "path": ".https://raw.githubusercontent.com/SC-BCH/fortnite-sprite-checklist/main/v8/releases/g20261016a/images/ver12-sprites.png",
       "sha256": "209E6682B1D19BB87D22C4722B2C80CE3B03BF3A5CC29115C2004711C2063839"
     },
     "crownLayer": {
-      "path": "../images/ver12-master-crowns.png",
+      "path": ".https://raw.githubusercontent.com/SC-BCH/fortnite-sprite-checklist/main/v8/releases/g20261016a/images/ver12-master-crowns.png",
       "sha256": "2024C7B7CCD615AF5459C0034A8841B54120FAB584E81BFC73F65F5AF176B317"
     },
     "checkboxLayer": {
-      "path": "../images/ver12-checkboxes.png",
+      "path": ".https://raw.githubusercontent.com/SC-BCH/fortnite-sprite-checklist/main/v8/releases/g20261016a/images/ver12-checkboxes.png",
       "sha256": "0F1F30108E8C954EE14C7FC047FAEA5DC0892CC69AC62911F2FBD4E946BBCDEC"
     },
     "familyNameLayer": {
-      "path": "../images/ver12-family-names.png",
+      "path": ".https://raw.githubusercontent.com/SC-BCH/fortnite-sprite-checklist/main/v8/releases/g20261016a/images/ver12-family-names.png",
       "sha256": "EB1C2FB2231E99A09E403D7378E264EAAF85D02C1944DE3978BDB47D22AD30CF"
     },
     "completeLayer": {
-      "path": "../images/ver12-complete-normal.png",
+      "path": ".https://raw.githubusercontent.com/SC-BCH/fortnite-sprite-checklist/main/v8/releases/g20261016a/images/ver12-complete-normal.png",
       "sha256": "374410DA683863DDB949C024C00435D00612C020BC6B5BA49E24C8CBBE9830BA"
     },
     "markLayer": {
@@ -2803,7 +2803,7 @@
       "sha256": "62A3D10FF1F1F7E762C37B75CB163C9CF91871075E9692A6FA9EBB302B06B1B0"
     },
     "completeMasterLayer": {
-      "path": "../images/ver12-complete-master.png",
+      "path": ".https://raw.githubusercontent.com/SC-BCH/fortnite-sprite-checklist/main/v8/releases/g20261016a/images/ver12-complete-master.png",
       "sha256": "C6D2353A4C2605DFE3AED0C66774AD69E359FC37288319464E1AA7EEEB1BCD90"
     }
   },
