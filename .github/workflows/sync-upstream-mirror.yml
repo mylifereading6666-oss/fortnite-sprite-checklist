@@ -1,0 +1,47 @@
+name: Sync complete upstream mirror
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: upstream-mirror-sync
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout personal mirror
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch upstream and copy all tracked files locally
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth 1 https://github.com/SC-BCH/fortnite-sprite-checklist.git /tmp/upstream
+          rsync -a --delete --exclude='.git/' --exclude='.github/workflows/sync-upstream-mirror.yml' /tmp/upstream/ ./
+          # Keep this sync workflow in the mirror repository.
+          mkdir -p .github/workflows
+          cp /tmp/upstream/.git/config /tmp/upstream/.git/config.backup 2>/dev/null || true
+          git status --short
+
+      - name: Commit mirrored files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Mirror is already up to date."
+            exit 0
+          fi
+          git commit -m "Sync complete upstream checklist mirror"
+          git push
