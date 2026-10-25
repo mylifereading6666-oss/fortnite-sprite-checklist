@@ -2763,7 +2763,8 @@
   ],
   "sources": {
     "background": {
-      "path": "../images/ver12-background-night.svg"
+      "path": "../images/ver12-background.png",
+      "sha256": "58327F2A84DD66E8D89C930FCC27979E3B56D902867AB898094F1CE408241761"
     },
     "mioriGumiBackground": {
       "path": "../images/ver12-miori-gumi.png",
